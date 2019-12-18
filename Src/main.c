@@ -132,7 +132,7 @@ int main(void)
 	  	          	sprintf(buffer, "%d %d %d \n\r", sound , count , dung);
 	  	          	HAL_UART_Transmit(&huart2, buffer, strlen(buffer), 1000);
 	  	   }
-	if(sound>422){
+	if(sound>410){
 		dung++;
 	}
 	if(dung>200){
