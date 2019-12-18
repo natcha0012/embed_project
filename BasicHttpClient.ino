@@ -2,7 +2,7 @@ void Line_Notify(String message) ;
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecureAxTLS.h> // กรณีขึ้น Error ให้เอาบรรทัดนี้ออก
 // Config connect WiFi
-#define WIFI_SSID "Natcha's IPhone"
+#define WIFI_SSID "Tangtai"
 #define WIFI_PASSWORD "123454321"
 // Line config
 #define LINE_TOKEN "EZ2SkNIuF2AiogopW5aefNSZsdo6kVsuqeTjh7jGMBo"
